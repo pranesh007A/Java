@@ -1,3 +1,4 @@
+package fun;
 import java.util.*;
 
 public class palindrome{
