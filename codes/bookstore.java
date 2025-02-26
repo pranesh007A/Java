@@ -37,27 +37,34 @@ public class bookstore{
                     if(books>5){
                         double disprice = ((10.0/100.0)*mrp);
                         System.out.println("CONGRAGULATIONS!!");
+                        System.out.println(" ");
                         System.out.println("you have got an discount of 10% on your MRP");
                         System.out.println("your discounted price is "+ disprice);
+                        System.out.println("your grand total is "+(mrp-disprice));
                         break;
                     }
                 case "premium":
                     if(books>10){
                         double disprice = ((20.0/100.0)*mrp);
                         System.out.println("CONGRAGULATIONS PREMIUM USER!!");
+                        System.out.println(" ");
                         System.out.println("you have got an discount of 20% on your MRP");
                         System.out.println("your discounted price is "+ disprice);
+                        System.out.println("your grand total is "+(mrp-disprice));
                         break;
                     }
                     else if(books<10 && books>5){
                         double disprice = ((15.0/100.0)*mrp);
                         System.out.println("CONGRAGULATIONS !!");
+                        System.out.println(" ");
                         System.out.println("you have got an discount of 15% on your MRP");
                         System.out.println("your discounted price is "+ disprice);
+                        System.out.println("your grand total is "+(mrp-disprice));
                         break;
                     }
                     else if(books<5){
                         System.out.println("OOPS!");
+                        System.out.println(" ");
                         System.out.println("sorry,no discount from our side,better lucknext time!");
                         System.out.println("[TIP:get more books to avail an discount]");
                         break;
@@ -65,12 +72,14 @@ public class bookstore{
                 case "admin":
                     double disprice = ((30.0/100.0)*mrp);
                     System.out.println("CONGRAGULATIONS ADMIN!!");
+                    System.out.println(" ");
                     System.out.println("you have got an discount of 30% on your MRP");
                     System.out.println("your discounted price is "+ disprice);
+                    System.out.println("your grand total is "+(mrp-disprice));
                     break;
             }
             
-        
+        System.out.println("************************************************************************");
         System.out.println("THANK YOU! for purchasing books on our store");
         System.out.println("visit our store often for more discounts and updates");
         sc.close();

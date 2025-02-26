@@ -1,6 +1,9 @@
 package codes;
+import java.util.*;
 public class onlinestore{
     public static void main(String[]args){
+        //activating scanner
+        Scanner sc = new Scanner(System.in);
 
         //declaration of arrays
         String[]name={"muhil","dharun","anish"};
@@ -16,7 +19,16 @@ public class onlinestore{
         System.out.println("welcome to eeshwarans online store");
         System.out.println(" ");
         System.out.println("select the required materials from the given list:");
-        System.out.println()
+        System.out.println(" ");
+
+        //listing the items at the store
+        System.out.println("clothing section(1) :"+(Arrays.toString(clothing)));
+        System.out.println("groceries section(2) :"+(Arrays.toString(groceries)));
+        System.out.println("electronics section(3) :"+(Arrays.toString(electronics)));
+
+        //getting the required items from the customer
+        int a1 = sc.nextInt();
+        for(i=0;i==a1;i++)
 
     }
 }

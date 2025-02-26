@@ -1,6 +1,6 @@
-package fun;
+package String;
 
-public class testing {
+public class findingvowels {
     public static void main(String[] args) {
         String str = "pranesh";
         for(int i=0;i<str.length()-1;i++){

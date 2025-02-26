@@ -1,4 +1,3 @@
-package array;
 import java.util.*;
 
 public class enteringArrayelements {
@@ -13,5 +12,6 @@ public class enteringArrayelements {
             arr[i]=sc.nextInt();     //to scan the numbers one by one and enter to the index of the array
         }
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }     
 }
