@@ -1,4 +1,4 @@
-package codes;
+package codes;//not yet compleated the code
 import java.util.*;
 public class onlinestore{
     public static void main(String[]args){
